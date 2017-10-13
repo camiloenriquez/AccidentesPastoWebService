@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/actionModeSplitBackground"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="11dp"
+    card_view:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/zonaTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="153dp"
+            android:layout_y="51dp"
+            android:text="Zona:"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/zona"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_x="91dp"
+            android:layout_y="76dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accidentesMotoTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="96dp"
+            android:text="Accidentes por Moto"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/accidentesMoto"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="122dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accidentesCarroTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="183dp"
+            android:layout_y="97dp"
+            android:text="Accidentes por Carro"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/accidentesAuto"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_x="177dp"
+            android:layout_y="122dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accidentesBusTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="186dp"
+            android:layout_y="147dp"
+            android:text="Accidentes por Bus"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/accidentesBus"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_x="176dp"
+            android:layout_y="173dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accidentesCamionetaTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="146dp"
+            android:text="Acc. por Camioneta"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/accidentesCamioneta"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="172dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalTit"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="105dp"
+            android:layout_y="199dp"
+            android:text="Total Accidentes:"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalAcci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="222dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tipoMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="29dp"
+            android:text="MES DE ACCIDENTALIDAD EN "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mes"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="30dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </AbsoluteLayout>
+</android.support.v7.widget.CardView>
