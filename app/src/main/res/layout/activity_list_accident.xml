@@ -6,12 +6,12 @@
     android:layout_height="wrap_content"
     android:background="?attr/actionModeSplitBackground"
     card_view:cardCornerRadius="15dp"
-    card_view:cardElevation="11dp"
+    card_view:cardElevation="5dp"
     card_view:cardUseCompatPadding="true">
 
     <AbsoluteLayout
         android:layout_width="match_parent"
-        android:layout_height="253dp"
+        android:layout_height="507dp"
 
         android:background="@android:color/darker_gray"
         android:orientation="vertical">
@@ -191,6 +191,14 @@
             android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_x="0dp"
+            android:layout_y="259dp"
+            android:background="@drawable/oz" />
 
 
     </AbsoluteLayout>

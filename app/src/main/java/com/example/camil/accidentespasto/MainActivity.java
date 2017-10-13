@@ -22,7 +22,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by camilo  on 11/10/17.
+ * Created by camilo  on 11/10/17. jj
  */
 
 public class MainActivity extends AppCompatActivity {
